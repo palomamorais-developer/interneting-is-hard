@@ -1,0 +1,50 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+h1{
+    padding:50px;
+    border-bottom: 1px solid #5D6063;
+   
+}
+
+h1,p{
+    background-color:#DDE0E3;
+ 
+}
+
+em, strong{
+    background-color: #B2D6FF;
+    display: inline;
+}
+
+p{
+   margin-top:25px;
+   margin-bottom:50px;
+   padding:20px 10px; /*Vertical and Horizontal */
+  
+    /*CLOCKWISE way: 
+     padding: top  right bottom left
+     padding: 20px   0    20px  10px;
+     */
+
+}
+
+body{ text-align: center;}
+
+div{
+    color: #fff;
+    background-color: #5995da;
+    font-weight: bold;
+    padding:20px;
+    text-align: center;
+    border: 2px solid #5d6063;
+    border-radius:5px;
+
+    width: 200px;
+    margin:20px auto; /*vertical horizontal*/
+  
+}
