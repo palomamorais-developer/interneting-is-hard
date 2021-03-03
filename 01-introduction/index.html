@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chapter 01 - Introduction</title>
+    <style>
+
+        body{
+            font-size:20px;
+            color:#5d6063;
+            font-family: 'Century', sans-serif;
+        }
+
+        h1{ 
+            font-size:2em;
+        }
+        h2{font-size: 1.6em;}
+
+        h1,h2{font-family: 'Harman Retro', sans-serif;}
+        p{font-size:1em;}
+        .button {
+            margin: 0 auto;
+            width: 70%;
+        }
+
+
+
+        #buttonClick {
+          
+            color: #5995da;
+            text-decoration: none;
+            border-bottom: 3px solid #5995da;
+        }
+
+        #buttonClick:hover{
+            border-bottom: 3px solid #1d6bd1;
+            color:#1d6fbd;
+        }
+    </style>
+</head>
+<body>
+    <h1>Interneting is Hard</h1>
+    <h2>Chapter 01 - Introduction</h2>
+    <hr/> 
+    <p>Learning HTML and CSS is hard, but it doesn’t have to be. 
+       This 14-chapter tutorial is one of the friendliest HTML and CSS guides on the Internet.</p>
+    <h2>HTML, CSS and JavaScript</h2>
+    <p><strong>HyperText Markup Language (HTML)</strong>,<strong>Cascading Style Sheets (CSS)</strong> ,
+         and <strong>JavaScript</strong> are the languages that run the web. <br/>
+        They’re very closely related, but they’re also designed for very specific tasks. 
+        Understanding how they interact will go a long way towards becoming a web developer. </p>
+
+    <ul>
+        <li>HTML is for adding meaning to raw content by marking it up.</li>
+        <li>CSS is for formatting that marked up content.</li>
+        <li>JavaScript is for making that content and formatting interactive.</li>
+    </ul>
+    <h2>Language versus &ldquo;Web Development&rdquo;</h2>
+    <p>Unfortunately, mastering HTML, CSS, and JavaScript is only a prerequisite for becoming a professional web developer. There are a bunch of other practical skills that you need to run a website:
+    </p>
+        <ul>
+            <li> Organizing HTML into reusable templates.</li>
+            <li> Standing up a web server.</li>
+            <li> Moving files from your local computer to your web server.</li>
+            <li> Reverting to a previous version when you screw something up.</li>
+            <li> Pointing a domain name at your server .</li>
+          
+        </ul>
+<hr/>
+        <p>This was a short preview of &ldquo;Introduction to Web Development&rdquo; by <em>Internetingishard</em>,
+             see the full content <a class="button" id="buttonClick" href="https://www.internetingishard.com/html-and-css/introduction/"> <strong> here</strong></a>.</p>
+
+        <!-- JavaScript -->
+        <script>
+            var button = document.getElementById("buttonClick");
+            button.addEventListener("click", function (event) {
+                button.innerHTML = "Nice content though!";
+            });
+        </script>
+        
+   
+        
+        
+</body>
+</html>
