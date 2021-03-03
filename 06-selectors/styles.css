@@ -1,0 +1,90 @@
+.synopsis{
+    color: #7e8184;
+    font-style: italic;
+}
+
+.synopsis em{
+    color: #000;
+    font-style: normal;
+}
+ /*pseudo-classes for buttons*/
+.button:link, 
+.button:visited {
+
+    display: block;
+    text-decoration: none;
+
+
+    color: #FFF;
+    background-color: #5995DA;    /* Blue */
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #5D6063;    /* Dark gray */
+    border-radius: 5px;
+  
+    width: 200px;
+    margin: 20px auto;
+  }
+
+.button:hover,
+.button:visited:hover{
+color:#fff;
+background-color: #76aeed;
+
+}
+
+.button:active,
+.button:visited:active {
+  color: #FFF;
+  background-color: #5995DA;  /* Blue */
+}
+
+.page{
+      width:600px;
+      margin: 0 auto;
+  }
+
+  .call-to-action{
+      font-style: italic;
+      background-color: #fdb840;
+  }
+
+
+  .call-to-action:link,
+.call-to-action:visited {
+  font-style: italic;
+  background-color: #EEB75A;     /* Yellow */
+}
+
+.call-to-action:hover,
+.call-to-action:visited:hover {
+  background-color: #F5CF8E;     /* Light yellow */
+}
+
+.call-to-action:active,
+.call-to-action:visited:active {
+  background-color: #EEB75A;     /* Yellow */
+}
+/*pseudo-classes for links:
+
+:link  - a link the user has never visited.
+:visited - a link that user has visited before. 
+:hover - a link  with the use'r's mouse over it.
+:active - a link that's being pressed down by a mouse or finger.
+
+
+*/
+  a:link{color:blue; text-decoration: none;}
+  a:visited{color:purple;}
+  a:visited:hover{color:orange;}
+  a:hover{color: aqua;text-decoration: underline;}
+  a:active{color:red;}
+  a:visited:active{color:red;}
+
+  .page > p:first-of-type {
+    color: #7E8184;
+    font-style: italic;
+  }
+
+  #button-2{color: #5d6063;}
