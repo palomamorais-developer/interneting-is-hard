@@ -25,7 +25,7 @@
 </html>
 
 ```
-## Nº 03 <a href="https://www.internetingishard.com/html-and-css/basic-web-pages/" target="_blank">Links and Images</a>
+## Nº 03 <a href="https://www.internetingishard.com/html-and-css/links-and-images/" target="_blank">Links and Images</a>
 
 1. ✅How create and manipulate links:
 ```html
