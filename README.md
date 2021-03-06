@@ -51,7 +51,7 @@
 ```
 
 ## Nº 04 <a href="https://www.internetingishard.com/html-and-css/hello-css/">Hello,CSS</a>
-✳ I**ntroduction to CSS** basics, styling headings and lists.( *Again, just learning some extras here.*)
+✳ **Introduction to CSS** basics, styling headings and lists.( *Again, just learning some extras here.*)
 >On my own, I went further and started playing with **pseudo-classes** (like: root) and also tried give some *minimalist* effect to links.😅
 
 
@@ -104,8 +104,62 @@
 
 >**Design pattern used:** <a href="https://developers.google.com/web/fundamentals/design-and-ux/responsive/patterns?hl=en#layout_shifter">Layout Shifter</a>
 
+##  Nº 11 <a href="https://www.internetingishard.com/html-and-css/responsive-images/">Responsive Images</a>
+
+✳ Making a image responsive is way more complicated than just making a responsive design,  but using the right methods, the results can be very good. 
+
+💡 **Quick Tips:**
+
+1. **Retina Optimization**:
+
+    Using `srcset` to optimize for screen resolution.
+
+  >*Great for images less than 600 pixels wide because they aren’t big enough to benefit from the second scenario.* 
+```html
+
+        <img src='illustration-small.png'
+             srcset='images/illustration-small.png 1x,
+                     images/illustration-big.png 2x'
+             style='max-width: 500px' />
+
+```
+
+2. **Screen Width Optimization**:
+
+    Using `srcset` plus `sizes` to optimize for device width.
+
+>*This method gives a very important optimization for larger images, especially full-bleed photos.* 
+
+```html
+
+        <img src='images/photo-small.jpg'
+             srcset='images/photo-big.jpg 2000w,
+                     images/photo-small.jpg 1000w'
+             sizes='(min-width: 960px) 960px, 100vw' />
+
+```
+3. **Art Direction** using `<picture>`:
+
+    Using the `<picture>` element for manual control over which image file is displayed.
+  >*Think of art direction as responsive image optimization for designers.*
+    
+
+
+ ```html
+
+        <picture>
+            <source media='(min-width: 401px)'
+                    srcset='images/photo-big.jpg'/>
+            <source media='(max-width: 400px)'
+                    srcset='images/photo-tall.jpg'/>
+            <img src='images/photo-small.jpg'/>
+        </picture>
+           
+ ```
+
+
 <hr/>
-Repository under construction ⚙...
+⚙ This repository is under construction ⚙...
 
 
 
