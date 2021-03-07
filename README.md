@@ -72,7 +72,7 @@
 
 
 ## Nº 08 <a href="https://www.internetingishard.com/html-and-css/flexbox/">Flexbox</a>
-✳ Yay! Finally, Flexbox Chapter. One of the best tutorials I ever seen on Internet, easy and very detailed. Now I feel confident to create layouts. ;) 
+✳ Yay! Finally, Flexbox Chapter. One of the best tutorials I've ever seen on Internet, easy and very detailed. Now I feel confident to create layouts. ;) 
 
 💡 **Quick Tips:** 
 * Use `display: flex;` to create a flex container.
@@ -97,7 +97,7 @@
 * *Relatively Absolute* (`position:relative` on parent -> `position:absolute` on child) - allow us to hook back into the static flow of the page. 
 
 ## Nº 10 <a href="https://www.internetingishard.com/html-and-css/responsive-design/">Responsive Design</a>
-✳During this chapter, I learned about *important* concepts of r**esponsive design,** such as:
+✳During this chapter, I learned about *important* concepts of **responsive design**, such as:
 * Difference between **fluid layouts** and **fixed-width layouts**.
 * How use **media queries** to create layouts for mobile, tablet and desktop.
 * How create a ***mobile first*** stylesheet.
@@ -114,7 +114,7 @@
 
     Using `srcset` to optimize for screen resolution.
 
-  >*Great for images less than 600 pixels wide because they aren’t big enough to benefit from the second scenario.* 
+  >💠 *Great for images **less than 600 pixels** wide because they aren’t big enough to benefit from the second scenario.* 
 ```html
 
         <img src='illustration-small.png'
@@ -128,7 +128,7 @@
 
     Using `srcset` plus `sizes` to optimize for device width.
 
->*This method gives a very important optimization for larger images, especially full-bleed photos.* 
+>💠 *This method gives a very important optimization for **larger images**, especially full-bleed photos.* 
 
 ```html
 
@@ -141,7 +141,7 @@
 3. **Art Direction** using `<picture>`:
 
     Using the `<picture>` element for manual control over which image file is displayed.
-  >*Think of art direction as responsive image optimization for designers.*
+  >💠 *Think of art direction as **responsive image optimization for designers**.*
     
 
 
@@ -156,7 +156,29 @@
         </picture>
            
  ```
+## Nº 12 <a href="https://www.internetingishard.com/html-and-css/semantic-html/">Semantic HTML</a>
 
+✳ “**Semantic HTML**” refers to the idea that all your *HTML markup* should convey the underlying meaning of your content—not its appearance.
+
+💡 **Quick Tips:**
+
+ ▪ `<article>` -> Represents an *independent article* in a web page.
+    
+   >👍  *It should only wrap content that can be plucked out of your page and distributed in a completely different context.*
+
+ ▪ `<section>` -> This is sort of like an article, except it *doesn’t* need to make sense outside the context of the document.
+ 
+  ▪  `<nav>` -> Lets you mark up the various navigation sections of your website.
+
+   >👍  *This goes for the main site navigation, links to related pages in a sidebar, tables of content, and pretty much any group of links.* 
+     
+  ▪`<header>` -> It denotes introductory content for a section, article, or entire web page.
+
+  >👍  *Not to be confused with headings (the `<h1>-<h6>` elements).*
+  
+ ▪ `<footer>` -> Conceptually, footers are basically the same as headers, except they generally come at end of an article/website opposed to the beginning.
+
+ ▪ `<aside>` -> If the content looks different than the rest of the article, chances are it’s an *aside*.
 
 <hr/>
 ⚙ This repository is under construction ⚙...
