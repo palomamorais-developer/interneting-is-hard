@@ -187,8 +187,21 @@
 * ✅ how works forms elements(inputs, labels...).
 * ✅ how create a **responsive form**. 
 
+
+## Nº 14 <a href="https://www.internetingishard.com/html-and-css/web-typography/">Web Typography</a>
+Where to find web fonts, hosting locally versus externally, dealing with multiple font faces, and basic typographic principles like text alignment, leading, and measure.
+
+✳The goal of this chapter was twofold:
+1. Learn the mechanics of **web fonts** and **basic CSS typography properties**.
+2. Understand *how designers think about **typography***.
+
+
+
+  >**Tutorial Completed** ✔ 
+
 <hr/>
-⚙ This repository is under construction ⚙...
+🏆  Achievement Unlocked:  Web Developer 💻 
+<hr/>
 
 
 
