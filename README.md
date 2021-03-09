@@ -180,6 +180,13 @@
 
  ▪ `<aside>` -> If the content looks different than the rest of the article, chances are it’s an *aside*.
 
+## Nº 13 <a href="https://www.internetingishard.com/html-and-css/forms/">HTML Forms</a>
+✳ Through this chapter, I learned about...
+* ✅ best **CSS** and **HTML** practices for forms. 
+* ✅ differences between **post** and **get** methods.
+* ✅ how works forms elements(inputs, labels...).
+* ✅ how create a **responsive form**. 
+
 <hr/>
 ⚙ This repository is under construction ⚙...
 
