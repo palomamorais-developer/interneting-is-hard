@@ -196,11 +196,7 @@ Where to find web fonts, hosting locally versus externally, dealing with multipl
 2. Understand *how designers think about **typography***.
 
 
-
-  >**Tutorial Completed** ✔ 
-
-<hr/>
-🏆  Achievement Unlocked:  Web Developer 💻 
+## 🏆 Tutorial Completed ✔ 
 <hr/>
 
 
